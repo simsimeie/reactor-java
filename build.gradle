@@ -20,13 +20,9 @@ dependencies {
     implementation 'com.jayway.jsonpath:json-path:2.8.0'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
-// https://mvnrepository.com/artifact/io.netty/netty-resolver-dns-native-macos
+    // https://mvnrepository.com/artifact/io.netty/netty-resolver-dns-native-macos
     implementation 'io.netty:netty-resolver-dns-native-macos:4.1.93.Final:osx-aarch_64'
-
-
-
-
-
+    testImplementation 'io.projectreactor:reactor-test'
 }
 
 tasks.named('test') {
