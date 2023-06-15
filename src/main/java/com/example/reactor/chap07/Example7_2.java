@@ -24,7 +24,7 @@ public class Example7_2 {
         Thread.sleep(2500);
 
         concertFlux.subscribe(
-                singer -> log.info("# Subscriber1 is watching {}'s song", singer)
+                singer -> log.info("# Subscriber2 is watching {}'s song", singer)
         );
 
         Thread.sleep(3000);
